@@ -5,9 +5,6 @@ Dave H. Medrano
 
 <h2>Students</h2>
 <ol>
-  <li>COMILA, Paul</li>
-  <li>COSME, Adrian</li>
-  <li>FELIX, Jhaynher</li>
-  <li>MANALO, Jose</li>
-  <li>TUMACDANG, Vincent Paul</li>
+  <li>TAYABAN, Robinson</li>
+  
 </ol>
