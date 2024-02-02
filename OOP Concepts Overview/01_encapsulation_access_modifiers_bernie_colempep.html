@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="name"><h1>
+
+    <script>
+        class person {
+            #firstname
+            #lastname
+            #gender
+
+            construtor(fn, ln) {
+                this.#firstname = fn;
+                this.#lastname = ln;
+                this.#gender = g;
+            }
+
+            get fullname(){
+                return(this.#gender === "m" ? "mr." : "ms.")+
+                "" + this.#fullname + "," + this.#firstname;
+            }
+            
+        }
+
+        const x =new Person ("bernie", "colempep", "m");
+        x.changeName();
+
+        const targetElement = document.getElementById('name');
+        targetElement.innerHTML = x.whatsyourname();
+    </script>
+
+
+</body>
+</html>
