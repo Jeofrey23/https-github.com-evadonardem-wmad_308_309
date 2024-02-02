@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <script>
+        class Person {
+            #firsName = '';
+            #lastName = '';
+            #middleInitial = '';
+            #age = '';
+
+            constructor(fn, ln, mi, age);{
+                this.#firstName = fn ;
+                this.#lastName = ln ;
+                this.#middleName = mi ;
+                this.#age = fn ;
+            }
+
+            get fullname() {
+                return '${this.#firstName}${this.lastName}${this.#middleInitial}'
+            }get lastName() {
+                return this.#lastName;
+            }
+            set lastName(ln){
+                this.#lastname = ln;
+            }
+
+        }
+
+        class Student extends Person {
+            #course = '';
+            #yearLevel = '';
+
+            constructor(fn,ln,mi,age){
+                super(fn,ln,mi,age,crs,yr){
+                    super(fn,ln,mi,age);
+                    this.#course = crs;
+                    this.#yearLevel= yr;
+                }
+
+                get course (){
+                    return this.#course;
+                }
+
+                set course(crs){
+                    this.#course = crs;
+                }
+
+                get courseAndYearLevel
+            }
+        }
+
+        const studA = new Student();
+        studA.lastname = "colempep";
+
+        const instructorNameElement
+    </script>
+</body>
+</html>
